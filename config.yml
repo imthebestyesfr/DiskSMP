@@ -1,0 +1,38 @@
+# Number of player kills needed to reach each next disc.
+# These are the exact progression requirements requested.
+upgrade-kills:
+  WOODEN: 1
+  STONE: 2
+  IRON: 4
+  GOLD: 6
+  DIAMOND: 8
+  NETHERITE: 12
+
+# Levels are separate from evolution. Since exact level XP requirements
+# have not been chosen yet, this default gives one level per 5 additional kills.
+kills-per-level: 5
+
+# Enchantments are displayed/applied as item enchantments.
+# Loyalty is intentionally not used. Wooden has no enchantments.
+levels:
+  STONE:
+    max: 3
+    unbreaking-base: 1
+  IRON:
+    max: 3
+    unbreaking-base: 2
+  GOLD:
+    max: 3
+    unbreaking-base: 3
+  DIAMOND:
+    max: 5
+    unbreaking-base: 3
+    sharpness-base: 1
+  NETHERITE:
+    max: 5
+    unbreaking-base: 3
+    sharpness-base: 3
+  GOD:
+    max: 10
+    unbreaking-base: 3
+    sharpness-base: 5

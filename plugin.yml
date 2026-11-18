@@ -1,0 +1,14 @@
+name: DiskSMP
+version: 1.0.0
+main: com.disksmp.DiskSMP
+api-version: '26.1'
+author: DiskSMP
+description: Disc progression and SMP management.
+commands:
+  disksmp:
+    description: DiskSMP administration
+    usage: /disksmp
+    permission: disksmp.admin
+permissions:
+  disksmp.admin:
+    default: op
